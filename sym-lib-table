@@ -1,6 +1,2 @@
 (sym_lib_table
-  (lib (name "custom_fet")(type "KiCad")(uri "${KIPRJMOD}/lib/fet.kicad_sym")(options "")(descr ""))
-  (lib (name "custom_ldo")(type "KiCad")(uri "${KIPRJMOD}/lib/ldo.kicad_sym")(options "")(descr ""))
-  (lib (name "rp2040")(type "KiCad")(uri "${KIPRJMOD}/lib/rp2040/rp2040.kicad_sym")(options "")(descr ""))
-  (lib (name "custom_shottky")(type "KiCad")(uri "${KIPRJMOD}/lib/shottky.kicad_sym")(options "")(descr ""))
 )
