@@ -642,7 +642,7 @@
       (reference "C5") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000623a7d84/d2ae9463-5d8a-42ea-96ad-b438d5e04588"
-      (reference "C6") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C6") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000623a7d84/c94337c6-7251-48f6-9edc-f38e25756fe3"
       (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -654,7 +654,7 @@
       (reference "C9") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000063b0677d/9756802a-fbab-4288-a95b-282b697218b8"
-      (reference "C10") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C10") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000063b0677d/6c738a2c-f196-4658-b782-b219fd7fef45"
       (reference "C11") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -681,13 +681,13 @@
       (reference "C18") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000623a7d84/9e662525-1372-4791-9d05-6d6298b61c9e"
-      (reference "D1") (unit 1) (value "RED") (footprint "LED_SMD:LED_0402_1005Metric")
+      (reference "D1") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000623a7d84/b1227c98-68fb-4def-a723-82129c1924ca"
-      (reference "D2") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0402_1005Metric")
+      (reference "D2") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063b0677d/bb9fc775-bb3d-4bda-90af-c375f15dfb69"
-      (reference "D3") (unit 1) (value "YELLOW") (footprint "LED_SMD:LED_0402_1005Metric")
+      (reference "D3") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063ad176a/7df0e7f8-610e-4540-94df-03415ff514c7"
       (reference "D4") (unit 1) (value "BAT54W") (footprint "Diode_SMD:D_SOD-123")
@@ -780,7 +780,7 @@
       (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000623a7d84/04f4cb37-de21-4dab-b224-3ca0c78f729e"
-      (reference "R4") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000623a7d84/20bf01b0-f2ae-4fa7-9089-4bcffc3662f0"
       (reference "R5") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -825,7 +825,7 @@
       (reference "R18") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000063ad176a/00000000-0000-0000-0000-000063cb926a"
-      (reference "R19") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R19") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000063ad176a/00000000-0000-0000-0000-000063cc2863"
       (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
