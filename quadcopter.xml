@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/marek/projects/hardware/flight_controller_v2/flight_controller_v2.kicad_sch</source>
-    <date>Mon 05 Jun 2023 16:19:20 CEST</date>
+    <source>/home/marek/projects/hardware/quadcopter/quadcopter.kicad_sch</source>
+    <date>Mon 05 Jun 2023 20:43:15 CEST</date>
     <tool>Eeschema 6.0.10+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>flight_controller_v2.kicad_sch</source>
+        <source>quadcopter.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -137,7 +137,7 @@
       <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="flight_controller_v2.kicad_sch"/>
+      <property name="Sheetfile" value="quadcopter.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f7113112-6b52-457d-a596-ad64407da9c1</tstamps>
     </comp>
@@ -146,7 +146,7 @@
       <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="flight_controller_v2.kicad_sch"/>
+      <property name="Sheetfile" value="quadcopter.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aeadbcdd-94bb-438e-8725-96391fdb288b</tstamps>
     </comp>
@@ -155,7 +155,7 @@
       <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="flight_controller_v2.kicad_sch"/>
+      <property name="Sheetfile" value="quadcopter.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>da5822be-e7ed-4fec-b21b-188b5beb0838</tstamps>
     </comp>
@@ -164,7 +164,7 @@
       <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="flight_controller_v2.kicad_sch"/>
+      <property name="Sheetfile" value="quadcopter.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>690a0ed9-3554-4e61-ae02-cbb4f5738904</tstamps>
     </comp>
@@ -2169,62 +2169,62 @@
       <node ref="U3" pin="6" pinfunction="BAT" pintype="power_in"/>
       <node ref="U3" pin="8" pinfunction="SRP" pintype="input"/>
     </net>
-    <net code="43" name="Net-(C17-Pad1)">
+    <net code="43" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(C17-Pad1)">
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="EN" pintype="input"/>
       <node ref="U4" pin="7" pinfunction="PS/SYNC" pintype="input"/>
       <node ref="U4" pin="8" pinfunction="VINA" pintype="power_in"/>
     </net>
-    <net code="44" name="Net-(D1-Pad2)">
+    <net code="45" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(D2-Pad2)">
+    <net code="46" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(D3-Pad1)">
+    <net code="47" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="STAT" pintype="output"/>
     </net>
-    <net code="47" name="Net-(D3-Pad2)">
+    <net code="48" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D4-Pad1)">
+    <net code="49" name="Net-(D4-Pad1)">
       <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(D6-Pad1)">
-      <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q3" pin="6" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="50" name="Net-(D7-Pad1)">
-      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="51" name="Net-(J2-Pad3)">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-    </net>
-    <net code="52" name="Net-(J9-Pad1)">
+    <net code="50" name="Net-(D5-Pad1)">
       <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(JP1-Pad2)">
+    <net code="51" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q3" pin="6" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(JP1-Pad2)">
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
-    </net>
-    <net code="54" name="Net-(JP2-Pad2)">
-      <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="55" name="Net-(L1-Pad1)">
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
@@ -2234,29 +2234,29 @@
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="L1" pintype="input"/>
     </net>
-    <net code="57" name="Net-(Q2-Pad2)">
+    <net code="57" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q2-Pad2)">
       <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(Q2-Pad5)">
+    <net code="59" name="Net-(Q2-Pad5)">
       <node ref="Q2" pin="5" pinfunction="G" pintype="input"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(Q3-Pad2)">
+    <net code="60" name="Net-(Q3-Pad2)">
       <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(Q3-Pad5)">
+    <net code="61" name="Net-(Q3-Pad5)">
       <node ref="Q3" pin="5" pinfunction="G" pintype="input"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
-    </net>
-    <net code="61" name="Net-(R2-Pad2)">
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R2" pin="2" pintype="passive"/>
     </net>
     <net code="62" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>

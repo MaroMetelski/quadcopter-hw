@@ -360,7 +360,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "flight_controller_v2.kicad_pro",
+    "filename": "quadcopter.kicad_pro",
     "version": 1
   },
   "net_settings": {
