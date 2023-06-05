@@ -689,16 +689,16 @@
     (path "/00000000-0000-0000-0000-000063b0677d/bb9fc775-bb3d-4bda-90af-c375f15dfb69"
       (reference "D3") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000063ad176a/7df0e7f8-610e-4540-94df-03415ff514c7"
+    (path "/00000000-0000-0000-0000-000063ad176a/545cdfbf-6690-4d17-9c30-4af40804bfae"
       (reference "D4") (unit 1) (value "BAT54W") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-000063ad176a/6c3555ee-9e1b-47dd-8386-e1f0f60171b3"
+    (path "/00000000-0000-0000-0000-000063ad176a/08138f51-2537-4e5c-9b56-633138e5c6e9"
       (reference "D5") (unit 1) (value "BAT54W") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-000063ad176a/d6982f64-a2a7-45e0-9407-4c58e937bf7a"
+    (path "/00000000-0000-0000-0000-000063ad176a/31b48ef5-ef10-4f2c-ad6f-fa29367b48aa"
       (reference "D6") (unit 1) (value "BAT54W") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-000063ad176a/99aef6a8-d21e-4fc7-867c-4b7ea55d30d4"
+    (path "/00000000-0000-0000-0000-000063ad176a/2a28c76d-2238-43aa-8251-86b3e90aa2a5"
       (reference "D7") (unit 1) (value "BAT54W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/f7113112-6b52-457d-a596-ad64407da9c1"
