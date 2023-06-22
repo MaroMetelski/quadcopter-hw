@@ -488,9 +488,6 @@
     (path "/00000000-0000-0000-0000-000063b2a1ef/a870269f-8c62-4533-8700-292faa3256ff"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000623a7d84/2eb309e3-4e60-42be-b77d-2f535e492741"
-      (reference "#PWR08") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000623a7d84/5d8edc3f-a2d8-4761-bca0-9255bc2578a1"
       (reference "#PWR09") (unit 1) (value "+3V3") (footprint "")
     )
@@ -746,9 +743,6 @@
     (path "/00000000-0000-0000-0000-000063ad176a/b909f35b-cff5-42b1-b716-32c490bfb00c"
       (reference "J11") (unit 1) (value "M4_DC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-0000623a7d84/338b8444-e306-4478-85fc-586fd2925436"
-      (reference "JP1") (unit 1) (value "FWU") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-000063b0677d/5daae664-f787-4ed3-b2cd-a9154d4ed7c1"
       (reference "JP2") (unit 1) (value "SYS_ON") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
@@ -775,9 +769,6 @@
     )
     (path "/00000000-0000-0000-0000-000063b2a1ef/52a90c24-519b-4f02-a6e8-2ca376006eb7"
       (reference "R2") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000623a7d84/51b9b47a-beb2-4e4d-9bf7-7f2f34f69bd5"
-      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000623a7d84/04f4cb37-de21-4dab-b224-3ca0c78f729e"
       (reference "R4") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0402_1005Metric")
